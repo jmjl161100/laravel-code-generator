@@ -1,0 +1,32 @@
+{
+  "name": "jmjl161100/laravel-code-generator",
+  "description": "Laravel Code Generator.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jmjl161100\\LaravelCodeGenerator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jmjl161100"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jmjl161100\\LaravelCodeGenerator\\CodeGeneratorServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "laravel/pint": "^1.22"
+  }
+}
