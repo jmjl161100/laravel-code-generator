@@ -85,4 +85,4 @@ php artisan generate:code Productsa
 
 ## 许可证
 
-本项目基于 [MIT 许可证](LICENSE.md) 开源。
+本项目基于 [MIT 许可证](LICENSE) 开源。
