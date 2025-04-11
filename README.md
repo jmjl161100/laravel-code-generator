@@ -50,18 +50,32 @@ return [
 ];
 ```
 
+### 发布模板文件（可选）
+
+```bash
+php artisan vendor:publish --provider="Jmjl161100\LaravelCodeGenerator\CodeGeneratorServiceProvider" --tag=codegenerator-stubs
+```
+
+## artisan
+
+```bash
+php artisan generate:code   {name : The name of the generated component}
+                            {--stub_id=default : The stub ID in config}
+                            {--target= : The target directory}
+                            {--f|force : Overwrite existing files}
+```
+
+## 使用说明
+
+执行 php artisan generate:code {name} 后根据 config/codegenerator.php 配置在目标路径下生成与模板路径同层级关系的文件，并根据 name 自动生成新文件名称
+
 ## 使用示例
 
+```bash
+php artisan generate:code Productsa
+```
 
-## 自定义模板
-
-### 步骤 1：创建模板文件
-
-### 步骤 2：修改模板
-
-### 步骤 3：更新配置
-
-### 贡献流程
+## 贡献流程
 
 1. Fork 项目仓库
 2. 创建功能分支 (`git checkout -b feature/your-feature`)
