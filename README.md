@@ -8,7 +8,7 @@
 - 📁 支持自定义模板（Stubs）文件
 - 📦 开箱即用的 Laravel 服务集成
 - 🔧 遵循 PSR-4 规范生成代码结构
-```
+
 ## 安装
 
 通过 Composer 安装：
@@ -73,14 +73,6 @@ php artisan generate:code   {name : The name of the generated component}
 ```bash
 php artisan generate:code Productsa
 ```
-
-## 贡献流程
-
-1. Fork 项目仓库
-2. 创建功能分支 (`git checkout -b feature/your-feature`)
-3. 提交修改 (`git commit -am 'Add some feature'`)
-4. 推送分支 (`git push origin feature/your-feature`)
-5. 创建 Pull Request
 
 ## 许可证
 
