@@ -1,4 +1,3 @@
-```markdown
 # Laravel Code Generator
 
 一款为 Laravel 项目设计的现代化代码生成工具，可快速生成控制器、服务类等模板代码，支持自定义模板。
